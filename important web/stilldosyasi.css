@@ -1,0 +1,611 @@
+body,html{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	line-height: 1.6em;
+	font-family: sans-serif;
+	list-style-type: none;
+}
+*,*::before,*::after{
+	transition: all .3s ease-in-out;
+}
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+a:link,a:active,a:visited{
+	color: #f5fffa;
+}
+html{
+	scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6,.heading {
+	    font-family: Georgia, "Times New Roman", Times, serif;
+	    text-transform: uppercase;
+}
+#sub-text::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+::selection{
+	background-color: rgba(215, 215, 215, 1.0);
+}
+/*  ###################################### */
+.fl_left{
+	float: left;
+}
+.fl_right {
+	float: right;
+}
+#hover li{
+	transition-timing-function: linear;
+	transition-duration: 1s;
+	transition-property: width;
+}
+#hover li a:hover{
+	color: skyblue;
+	transition-delay: 0.4s;
+}
+#topbar,#topbar ul li{
+	border-color: grey;
+}
+#topbar *{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+#topbar ul li{
+	display: inline-block;
+	padding-right: 10px;
+	margin-right: 10px;
+	border-right: 1px solid;
+}
+#topbar{
+	padding: 15px 0;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+#header-text-secondary{
+	margin-bottom: 2rem;
+	font-size: 21px;
+}
+.transform-h3{
+	text-transform: uppercase;
+}
+.hoc{
+	margin: 0 auto;
+}
+.clear,.clear::after{
+	clear: both;
+}
+.clear::before,.clear::after{
+	display: table;
+	content: "";
+}
+#topbar ul li:last-child{
+	border-right: none;
+}
+.wrapper{
+	display: block;
+	position: relative;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	word-wrap: break-word;
+}
+.sub-i:hover{
+	color: aquamarine;
+}
+.row0 a:hover{
+	opacity: 0.8;
+}
+.row0{
+	color: white;
+	background-color: black;
+}
+nav li:hover{
+ 	opacity: 0.8;
+}
+#sub-text{
+	max-width: 978px;
+	margin: 30px auto;
+	text-transform: uppercase;
+}
+.container-text{
+	float: left;
+	margin: 0%;
+}
+.container-text-right{
+	float: right;
+	display: inline-block;
+	padding-right: 20px;
+}
+.space{
+	margin-right: 5px;
+}
+#h1-sub-span{
+	font-weight: normal;
+	font-size: 17px;
+	text-transform: lowercase;
+	padding-left: .2rem;
+}
+.image-container{
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	height: 35rem;
+	width: 100% !important;
+	background-image: url(yeniresim.jpg);
+	background-position: center;
+	background-size: cover;
+	object-fit: cover;
+	background-attachment: fixed;
+}
+.substrat-text-alt{
+	position: relative;
+	font-weight: bold;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	background-color: rgba(0, 0, 0, .4);
+	text-shadow: 2px 2px rgba(120, 90, 0, .8);
+	text-align: left;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	line-height: 25px;
+}
+.container-sub-el{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin: 10% 22%;
+}
+.paragraf{
+	line-height: 45px;
+	letter-spacing: 2px;
+	font-size: 3.2rem;
+	min-width: 100%;
+}
+#arkaresim {
+	background-image: url(yazılım.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	object-fit: cover;
+	min-height: 30rem;
+	margin: 5% 0px;
+	width: auto;
+	position: relative;
+}
+#arkaresim{
+	text-align: center;
+	color: white;
+	font-size: 2rem;
+	position: relative;
+}
+#arkaresim .resim-altı-yazı{
+	margin: 0;
+	font-size: 0.9rem;
+	height: 30rem;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .4);
+}
+#arkaresim .resim-altı-yazı h3{
+	margin: 0 0 10px 0;
+	padding-top: 20px;
+	font-size: 17px;
+	letter-spacing: 0px;
+}
+.resim-altı-yazı p{
+	text-align: justify;
+	max-width: 70%;
+	margin: 0 auto;
+	font-size: 1.2rem;
+}
+.sol-tutma{
+	padding: 0;
+	font-size: 2rem;
+	margin: 10px 0 0 0;
+}
+.sol-tutma li{
+	display: inline-block;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	width: 33.3%;
+}
+.sol-tutma a{
+	word-spacing: 0px;
+	letter-spacing: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+#alt-bilgi{
+	text-align: center;
+}
+.alt-bilgi-container{
+	padding: 50px 0 5px 0;
+}
+.alt-container{
+	padding: 10px;
+	margin: 6rem 0;
+}
+#footer{
+	padding: 10rem;
+	border-top: 5px solid rgba(225, 225, 225, .6);
+	margin-top: 5px;
+	text-align: left;
+}
+.mate-footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+}
+.mate-footer li{
+	list-style-type: none;
+	font-size: 25px;
+	margin: 5px 25px;
+	text-align: left;
+}
+.mate-footer a{
+	color: black;
+	text-decoration: none;
+	text-align: left;
+}
+#form-footer input[type="submit"]{
+	background-color: powderblue;
+	margin-top: 5px;
+}
+#form-footer input[type="text"]{
+	padding: 10px 30px;
+	margin-bottom: 5px;
+	outline: none;
+}
+.left-margin{
+	margin-left: 50px;
+}
+.rigth-margin{
+	margin-right: 30px;
+}
+#form-footer input{
+	border: none;
+	height: auto;
+	background-color: rgba(225, 225, 225, .6);
+}
+
+.border-bottom-grey{
+	border-bottom: 1px solid rgba(225, 225, 225, 1.0);
+	padding-bottom: 10px;
+}
+.m-5{
+	margin: 10px 0 !important;
+}
+#submit{
+	padding: 10px;
+}
+.baslik{
+	margin-top: -7rem;
+	margin-bottom: 6rem;
+}
+#e-bul{
+	margin-top: -7rem;
+	margin-bottom: 3rem;
+}
+.footer-links a{
+	color: #fff;
+	background-color: rgba(225, 225, 225, .5);
+	padding: 20px;
+	color: #333;
+	transition: color 0s ease;
+}
+.footer-links a:hover{
+	color: rgba(7, 118, 25, 1);
+}
+.footer-links i{
+	font-size: 17px;
+	vertical-align: middle;
+	text-align: center;
+}
+.footer-links li{
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.footer-links{
+	margin-top: -7rem;
+	width: 100%;
+}
+.footer-links ul{
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+	align-items: center;
+}
+#copyright{
+	display: flex;
+	justify-content: center;
+	background-color: rgba(225, 225, 225, 1.0);
+	align-items: center;
+	padding: 2rem 0;
+	margin-top: 2rem;
+}
+.fa-solid{
+	bottom: 15px;
+	right: 0;
+	position: fixed;
+	color: black;
+	background-color:powderblue;
+	padding: 5px 10px;
+	font-size: 30px;
+	border-top-left-radius: 25px;
+}
+.footer-links li #insta-h:hover{
+	color: #EE5007;
+}
+#twit-h:hover{
+	color: #0AA1DD;
+}
+.inline-footer{
+	margin-right: 0rem;
+}
+#form-footer input[type="text"]:focus{
+	background-color: rgba(215, 215, 215, 1.0);
+}
+/* #####################################################################################*/
+/* #####################################################################################*/
+/* #####################################################################################*/
+/* #####################################################################################*/
+@media screen and (min-width: 1400px){
+		.container-sub-el{
+			max-width: 800px;
+		}
+}
+@media screen and (min-width: 990px){
+	.hoc{
+		width: 978px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: .5rem;
+		padding-right: .5rem;
+	}
+	.hoc2{
+		width: 978px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media screen and (max-width: 1200px){
+	.mate-footer li{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 990px){
+	*{
+		overflow-x: hidden !important;
+	}
+	#footer{
+		padding:0 !important;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100% !important;
+	}
+	.footer-links{
+		overflow-y: hidden !important;
+		margin-top: 30px !important;
+		width: 100% !important;
+	}
+	.footer-links a{
+		padding: 0 !important;
+		margin-right: 10px !important;
+	}
+	.mate-footer{
+		display: flex;
+		flex-direction: column;
+	}
+	.m-5,.left-margin{
+		font-size: 11px !important;
+		overflow-y: hidden;
+		
+	}
+	.left-margin{
+		margin-left: -0 !important;
+	}
+	.baslik{
+		margin: 0 !important;
+		font-size: 15px !important;
+	}
+	.paragraf{
+		font-size: 2.2rem !important;
+	}
+	#topbar ul li{
+		float: none;
+	}
+	.hoc{
+		min-width: 100%;
+	}
+	.substrat-text h2{
+		min-width: 100%;
+		word-spacing: 3px;
+		text-align: left;
+		float: none;
+	}
+	.fl_right li{
+		display: inline-block;
+		padding: 2px;
+		margin-top: 5px;
+		float: none;
+		text-align: center;
+	}
+	.fl_right a{
+		text-align: center;
+		display: inline-block;
+
+	}
+	.fl_right,.fl_left{
+		text-align: center;
+		float: none;
+	}
+	.fl_left li{
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	.fl_right a ,.fl_left a{
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+		float: none;
+	}
+	#sub-text{
+		float: none;
+	}
+	#sub-text .container-text{
+		width: 100%;
+		text-align: center;
+		font-size: 17px;
+	}
+	#sub-text .container-text-right{
+		width: 100%;
+		text-align: center;
+		font-size: 14px;
+	}
+	.sol-tutma li{
+		float: none;
+		min-width: 100%;
+		padding: 0;
+	}
+	#arkaresim .resim-altı-yazı h3{
+		margin: 0;
+		font-size: 0.9rem;
+		overflow-y: hidden;
+	}
+	.resim-altı-yazı p{
+		font-size: 0.7rem;
+	}
+	#arkaresim{
+		height: auto;
+		width: auto;
+	}
+}
+@media screen and (max-width: 900px){
+	.substrat-text-alt{
+		max-width: 100%;
+		padding-top: 4rem;
+		letter-spacing: 2px;
+	}
+	.substrat-text-alt p{
+		font-size: 0.8rem;
+	}
+	.paragraf{
+		font-size: 1rem;
+	}
+	.image-container p{
+		font-size: 11px;
+		word-spacing: 1px;
+	}
+	.image-container .paragraf{
+		font-size: 1.5rem;
+		word-spacing: 1px;
+	}
+	.container-sub-el{
+			overflow-y: hidden !important;
+	}
+	.sol-tutma li{
+		float: none;
+		width: 100%;
+	}
+	#arkaresim{
+		height: auto;
+	}
+	#arkaresim .resim-altı-yazı h3{
+		margin: 0;
+		font-size: 13px;
+	}
+	.resim-altı-yazı p{
+		font-size: 0.7rem;
+}
+}
+@media screen and (max-width: 400px){
+	.container-sub-el{
+		margin-right: 50px !important;
+	}
+	#topbar ul li{
+		border-right: none;
+	}
+	#topbar *{
+		letter-spacing: -0px !important;
+	}
+	#form-footer{
+		width: 100%;
+	}
+	#copyright footer{
+		font-size: 10px !important;
+		width: 200px;
+	}
+	.paragraf{
+		font-size: 1.5rem !important;
+	}
+	.hoc{
+		min-width: 100%;
+	}
+	.fl_left {
+		font-size: 12px;
+		letter-spacing: 0;
+	}
+	.fl_right,a{
+		margin: 0;
+		padding: 0;
+		font-size: 12px;
+		letter-spacing: 0;
+	}
+	#image1{
+		margin-right: 1px;
+	}
+	#sub-text .container-text{
+		font-size: 11px;
+		margin-left: 0%;
+		letter-spacing: 2px;
+	}
+	#sub-text .container-text-right{
+		font-size: 11px;
+		letter-spacing: 2px;
+	}
+	.substrat-alt{
+		width: 100%;
+		word-spacing: 3px;
+	}
+	.sol-tutma li{
+		float: none;
+		width: 100%;
+	}
+	#arkaresim .resim-altı-yazı h3{
+		margin: 0;
+		font-size: 13px;
+	}
+	#arkaresim{
+		height: auto;
+	}
+	.resim-altı-yazı p{
+		font-size: 0.7rem;
+}
+}
+@media screen and (max-width: 200px){
+	.container-sub-el p{
+		font-size: 11px !important;
+	}
+	.fa-chevron-up{
+		font-size: 20px;
+	}
+}
+/* #####################################################################################*/
+/* #####################################################################################*/
+/* #####################################################################################*/
+/* #####################################################################################*/
